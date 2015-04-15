@@ -1,0 +1,19 @@
+{
+  "name": "Foosbeer-Manager",
+  "version": "0.0.0",
+  "description": "Monitoring app I'm using to keep the foosbeer server in line. Managed from keymetrics.",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisinajar/Foosbeer-Manager"
+  },
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/Foosbeer-Manager/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/Foosbeer-Manager"
+}
