@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chrisinajar/Foosbeer-Manager/issues"
   },
-  "homepage": "https://github.com/chrisinajar/Foosbeer-Manager"
+  "homepage": "https://github.com/chrisinajar/Foosbeer-Manager",
+  "dependencies": {
+    "pmx": "^0.3.7"
+  }
 }
