@@ -11,5 +11,10 @@ pmx.action('upgrade_webapp', function(reply) {
 });
 
 pmx.action('npm install server', function(reply) {
-
+	var ls = require('child_process').spawn('npm', ['install'], {
+		cwd: config.server.cwd
+	});
+	ls.on('close', function (code) {
+		reply(code);
+	});
 });
